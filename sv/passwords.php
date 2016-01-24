@@ -14,9 +14,9 @@ return [
     */
 
     'password' => 'Lösenord måste innehålla minst sex tecken och matcha varandra.',
-    'reset'    => 'Lösenordet har återställts!',
-    'sent'     => 'Lösenordspåminnelse skickad!',
-    'token'    => 'Koden för lösenordsåterställning är ogiltig.',
-    'user'     => 'Vi kan inte hitta en användare med den e-postadressen.',
+    'reset'    => 'Grattis! Ditt lösenord har återställts.',
+    'sent'     => 'En lösenordspåminnelse är skickad!',
+    'token'    => 'Koden för lösenordsåterställning är ogiltig. Vänligen försök igen.',
+    'user'     => 'Oj! Vi kan inte hitta en användare med den e-postadressen.',
 
 ];

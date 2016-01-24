@@ -19,7 +19,7 @@ return [
     'alpha'                => ':attribute får endast innehålla bokstäver.',
     'alpha_dash'           => ':attribute får endast innehålla bokstäver, siffror och bindestreck.',
     'alpha_num'            => ':attribute får endast innehålla bokstäver och siffror.',
-    'array'                => ':attribute måste vara en array.',
+    'array'                => ':attribute måste vara en matris.',
     'before'               => ':attribute måste vara ett datum innan den :date.',
     'between'              => [
         'numeric' => ':attribute måste vara en siffra mellan :min och :max.',
@@ -41,7 +41,7 @@ return [
     'in'                   => 'Det valda :attribute är ogiltigt.',
     'integer'              => ':attribute måste vara en siffra.',
     'ip'                   => ':attribute måste vara en giltig IP-adress.',
-    'json'                 => 'The :attribute must be a valid JSON string.',
+    'json'                 => ':attribute måste vara en giltig JSON-adress.',
     'max'                  => [
         'numeric' => ':attribute får inte vara större än :max.',
         'file'    => ':attribute får max vara :max kilobyte stor.',
@@ -69,8 +69,8 @@ return [
     'size'                 => [
         'numeric' => ':attribute måste vara :size.',
         'file'    => ':attribute får endast vara :size kilobyte stor.',
-        'string'  => ':attribute måste innehålla :size tecken.',
-        'array'   => ':attribute måste innehålla :size objekt.',
+        'string'  => ':attribute får endast innehålla :size tecken.',
+        'array'   => ':attribute får endast innehålla :size objekt.',
     ],
     'string'               => ':attribute måste vara en sträng.',
     'timezone'             => ':attribute måste vara en giltig tidszon.',
